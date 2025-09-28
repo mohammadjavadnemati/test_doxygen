@@ -1,0 +1,231 @@
+\doxysection{calculatordoxygen.\+Calculator Class Reference}
+\hypertarget{classcalculatordoxygen_1_1_calculator}{}\label{classcalculatordoxygen_1_1_calculator}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+
+
+This class performs various mathematical operations such as addition, subtraction, multiplication, division, etc.  
+
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a185c449dcb5006fc1a63434ead5a202a}{add}} (self, a, b)
+\begin{DoxyCompactList}\small\item\em Adds two numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a0f773ad4bc06577a1d69b5b948f6dbfd}{subtract}} (self, a, b)
+\begin{DoxyCompactList}\small\item\em Subtracts two numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a716fbd921483d98db9df3ec95dfb1b35}{multiply}} (self, a, b)
+\begin{DoxyCompactList}\small\item\em Multiplies two numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a9f64a38425ffd5acf3d81398480893d5}{divide}} (self, a, b)
+\begin{DoxyCompactList}\small\item\em Divides two numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a867cfbe6dbb4b11f56f4cb368c5d21fa}{power}} (self, a, b)
+\begin{DoxyCompactList}\small\item\em Raises a to the power of b. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a5c66239c0c128d28ddf8546cc00d9dd6}{factorial}} (self, n)
+\begin{DoxyCompactList}\small\item\em Calculates the factorial of a number. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a8763d5b489b28028928c79b17f835c39}{sqrt}} (self, a)
+\begin{DoxyCompactList}\small\item\em Calculates the square root of a number. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_a327883e1295e8ca1f562c54e15091e43}{sum\+\_\+of\+\_\+numbers}} (self, numbers)
+\begin{DoxyCompactList}\small\item\em Sums the elements of a list of numbers. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classcalculatordoxygen_1_1_calculator_ae6f05e0fb11823835196bef5dfc31a65}{is\+\_\+prime}} (self, n)
+\begin{DoxyCompactList}\small\item\em Checks if a number is prime. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+This class performs various mathematical operations such as addition, subtraction, multiplication, division, etc. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a185c449dcb5006fc1a63434ead5a202a}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!add@{add}}
+\index{add@{add}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a185c449dcb5006fc1a63434ead5a202a} 
+calculatordoxygen.\+Calculator.\+add (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{a}{, }\item[{}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Adds two numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first number. \\
+\hline
+{\em b} & The second number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The sum of a and b. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a9f64a38425ffd5acf3d81398480893d5}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!divide@{divide}}
+\index{divide@{divide}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{divide()}{divide()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a9f64a38425ffd5acf3d81398480893d5} 
+calculatordoxygen.\+Calculator.\+divide (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{a}{, }\item[{}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Divides two numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The numerator. \\
+\hline
+{\em b} & The denominator. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & If b is zero. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+The result of dividing a by b. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a5c66239c0c128d28ddf8546cc00d9dd6}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!factorial@{factorial}}
+\index{factorial@{factorial}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{factorial()}{factorial()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a5c66239c0c128d28ddf8546cc00d9dd6} 
+calculatordoxygen.\+Calculator.\+factorial (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{n}{}\end{DoxyParamCaption})}
+
+
+
+Calculates the factorial of a number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The input number. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & If n is negative. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+The factorial of n. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_ae6f05e0fb11823835196bef5dfc31a65}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!is\_prime@{is\_prime}}
+\index{is\_prime@{is\_prime}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{is\_prime()}{is\_prime()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_ae6f05e0fb11823835196bef5dfc31a65} 
+calculatordoxygen.\+Calculator.\+is\+\_\+prime (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{n}{}\end{DoxyParamCaption})}
+
+
+
+Checks if a number is prime. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em n} & The input number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the number is prime, False otherwise. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a716fbd921483d98db9df3ec95dfb1b35}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!multiply@{multiply}}
+\index{multiply@{multiply}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{multiply()}{multiply()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a716fbd921483d98db9df3ec95dfb1b35} 
+calculatordoxygen.\+Calculator.\+multiply (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{a}{, }\item[{}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Multiplies two numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first number. \\
+\hline
+{\em b} & The second number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The product of a and b. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a867cfbe6dbb4b11f56f4cb368c5d21fa}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!power@{power}}
+\index{power@{power}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{power()}{power()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a867cfbe6dbb4b11f56f4cb368c5d21fa} 
+calculatordoxygen.\+Calculator.\+power (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{a}{, }\item[{}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Raises a to the power of b. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The base number. \\
+\hline
+{\em b} & The exponent. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of a raised to the power of b. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a8763d5b489b28028928c79b17f835c39}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!sqrt@{sqrt}}
+\index{sqrt@{sqrt}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{sqrt()}{sqrt()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a8763d5b489b28028928c79b17f835c39} 
+calculatordoxygen.\+Calculator.\+sqrt (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{a}{}\end{DoxyParamCaption})}
+
+
+
+Calculates the square root of a number. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The input number. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & If a is negative. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+The square root of a. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a0f773ad4bc06577a1d69b5b948f6dbfd}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!subtract@{subtract}}
+\index{subtract@{subtract}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{subtract()}{subtract()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a0f773ad4bc06577a1d69b5b948f6dbfd} 
+calculatordoxygen.\+Calculator.\+subtract (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{a}{, }\item[{}]{b}{}\end{DoxyParamCaption})}
+
+
+
+Subtracts two numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em a} & The first number. \\
+\hline
+{\em b} & The second number. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of subtracting b from a. 
+\end{DoxyReturn}
+\Hypertarget{classcalculatordoxygen_1_1_calculator_a327883e1295e8ca1f562c54e15091e43}\index{calculatordoxygen.Calculator@{calculatordoxygen.Calculator}!sum\_of\_numbers@{sum\_of\_numbers}}
+\index{sum\_of\_numbers@{sum\_of\_numbers}!calculatordoxygen.Calculator@{calculatordoxygen.Calculator}}
+\doxysubsubsection{\texorpdfstring{sum\_of\_numbers()}{sum\_of\_numbers()}}
+{\footnotesize\ttfamily \label{classcalculatordoxygen_1_1_calculator_a327883e1295e8ca1f562c54e15091e43} 
+calculatordoxygen.\+Calculator.\+sum\+\_\+of\+\_\+numbers (\begin{DoxyParamCaption}\item[{}]{self}{, }\item[{}]{numbers}{}\end{DoxyParamCaption})}
+
+
+
+Sums the elements of a list of numbers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em numbers} & A list of numeric values. \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em Value\+Error} & If any element of the list is not a number. \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyReturn}{Returns}
+The sum of the elements in the list. 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+calculatordoxygen.\+py\end{DoxyCompactItemize}
